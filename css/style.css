@@ -58,40 +58,40 @@ header {
     padding: 20px;
 }
 
-/* HOME */
+/* NOSOTROS */
 
-#home {
+#nosotros {
     padding: 20px;
 }
 
-#home .home-text {
+#nosotros .nosotros-text {
     float: left;
     width: 40%;
 }
 
-#home .home-text h1 {
+#nosotros .nosotros-text h1 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 46px;
-    padding-top: 30%;
+    padding-top: 50px;
 }
 
-#home .home-img {
+#nosotros .nosotros-img {
     float: right;
     width: 50%;
     padding: 20px;
 }
 
-/* NOTICIAS */
+/* EL EVENTO */
 
-#noticias .noticias-detalle {
+#elevento .elevento-detalle {
     display: inline-block;
     border-top-style: dashed;
     border-bottom-style: dashed;
     background: cadetblue;
 }
 
-#noticias .noticias-texto {
+#elevento .elevento-texto {
     float: left;
     width: 50%;
     padding: 10px;
@@ -101,22 +101,22 @@ header {
     border-style:double ; */
 }
 
-#noticias .noticias-texto p{
+#elevento .elevento-texto p{
     font-style: italic;
 }
 
-#noticias .noticias-texto h2 {
+#elevento .elevento-texto h2 {
     text-align: center;
 }
 
-#noticias .noticias-img {
+#elevento .elevento-img {
     float: right;
     width: 40%;
     padding: 10px;
     border-left-style: dashed;
 }
 
-#noticias .noticias-img img{
+#elevento .elevento-img img{
     object-fit:cover;
     width:100%;
     height:100%;
@@ -124,20 +124,20 @@ header {
 
 /* Contacto */
 
-#contacto .contact-form {
+#registrate .registrate-form {
     width: 40%;
     padding: 40px;
     float: right;
 }
 
-#contacto .contact-title {
+#registrate .registrate-title {
     float: left;
     width: 50%;
-    padding-top: 200px;
-    text-align: center;
+    padding-top: 100px;
+    text-align: left;
 }
 
-#contacto {
+#registrate {
     /* background: cadetblue; */
 }
 
@@ -176,4 +176,23 @@ form .form-group {
     background: #fff;
     border: 2px solid #284B63;
     color: #284B63;
+}
+
+/* CLIMA */
+#clima h2{
+    text-align: center;
+}
+
+
+/* FOOTER */
+
+.footer{
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    background: #284B63;
+}
+
+.footer img{
+    padding-left: 15px;
 }
