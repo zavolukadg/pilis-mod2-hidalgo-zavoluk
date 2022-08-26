@@ -196,3 +196,22 @@ form .form-group {
 .footer img{
     padding-left: 15px;
 }
+
+.logo:hover {
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    transform: scale(1.3);
+}
+
+.logo-img {
+    overflow: hidden;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.elevento-img:hover {
+    filter: saturate(200%);
+}
