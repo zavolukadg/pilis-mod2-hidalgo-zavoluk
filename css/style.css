@@ -13,8 +13,8 @@ header {
     padding: 20px;
 }
 
-#navbar {
-    background: cadetblue;
+#navbar{
+    background: #284B63;;
 }
 
 .container {
@@ -92,8 +92,8 @@ header {
 }
 
 #elevento .elevento-texto {
-    float: left;
-    width: 50%;
+    float: right;
+    width: 45%;
     padding: 10px;
     text-align: justify;
     overflow: auto;
@@ -101,7 +101,15 @@ header {
     border-style:double ; */
 }
 
-#elevento .elevento-texto p {
+#elevento .elevento-texto2 {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    text-align: justify;
+    overflow: auto;
+}
+
+#elevento .elevento-texto p{
     font-style: italic;
 }
 
@@ -109,17 +117,25 @@ header {
     text-align: center;
 }
 
-#elevento .elevento-img {
-    float: right;
-    width: 40%;
+#elevento .elevento-video{
+    float: left;
+    width: 45%;
     padding: 10px;
     border-left-style: dashed;
 }
 
-#elevento .elevento-img img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+#elevento .elevento-img2 {
+    float: right;
+    width: 45%;
+    padding: 10px 40px 10px 10px;
+    /*border-left-style: dashed;*/
+    /*border-right-style: dashed;*/
+    border-right:  100px;
+    
+}
+
+.elevento-img2:hover {
+    filter: saturate(200%);
 }
 
 /* Contacto */
