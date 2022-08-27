@@ -14,7 +14,7 @@ header {
 }
 
 #navbar{
-    background: #284B63;;
+    background: #284B63;
 }
 
 .container {
@@ -47,6 +47,8 @@ header {
     padding: 20px;
     text-align: center;
     text-decoration: none;
+    color: #D9D9D9;
+    border-radius: 30%;
 }
 
 #navbar ul li a:hover {
@@ -58,25 +60,29 @@ header {
     padding: 20px;
 }
 
-/* NOSOTROS */
+/* HOME */
 
-#nosotros {
+#home {
     padding: 20px;
 }
 
-#nosotros .nosotros-text {
+#home .home-img img:hover {
+    filter: saturate(200%);
+}
+
+#home .home-text {
     float: left;
     width: 40%;
 }
 
-#nosotros .nosotros-text h1 {
+#home .home-text h1 {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 46px;
     padding-top: 50px;
 }
 
-#nosotros .nosotros-img {
+#home .home-img {
     float: right;
     width: 50%;
     padding: 20px;
@@ -91,17 +97,22 @@ header {
     background: cadetblue;
 }
 
+#nosotros .elevento-detalle {
+    display: inline-block;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+   /*  background: cadetblue; */
+}
+
 #elevento .elevento-texto {
     float: right;
     width: 45%;
     padding: 10px;
     text-align: justify;
     overflow: auto;
-    /* height: 100%;
-    border-style:double ; */
 }
 
-#elevento .elevento-texto2 {
+#nosotros .elevento-texto2 {
     float: left;
     width: 45%;
     padding: 10px;
@@ -121,17 +132,14 @@ header {
     float: left;
     width: 45%;
     padding: 10px;
-    border-left-style: dashed;
+   /*  border-right-style: dashed; */
 }
 
-#elevento .elevento-img2 {
+#nosotros .elevento-img2 {
     float: right;
     width: 45%;
     padding: 10px 40px 10px 10px;
-    /*border-left-style: dashed;*/
-    /*border-right-style: dashed;*/
     border-right:  100px;
-    
 }
 
 .elevento-img2:hover {
@@ -154,7 +162,7 @@ header {
 }
 
 #registrate {
-    /* background: cadetblue; */
+    background: cadetblue;
 }
 
 form .form-control {
@@ -194,11 +202,23 @@ form .form-group {
     color: #284B63;
 }
 
-/* CLIMA */
+/* ****** CLIMA ****** */
 #clima h2 {
     text-align: center;
 }
 
+#clima .clima-container {
+    transform: perspective(75em) rotateX(18deg);
+    box-shadow: rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+        rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: rgb(213, 220, 226) rgb(213, 220, 226) rgb(184, 194, 204);
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+    width: 40%;
+}
 
 /* FOOTER */
 
@@ -230,17 +250,4 @@ form .form-group {
 
 .elevento-img:hover {
     filter: saturate(200%);
-}
-
-/* ****** CLIMA ****** */
-
-#clima .clima-container {
-    transform: perspective(75em) rotateX(18deg);
-    box-shadow: rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
-        rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
-    border-radius: 10px;
-    border: 1px solid;
-    border-color: rgb(213, 220, 226) rgb(213, 220, 226) rgb(184, 194, 204);
-    text-align: center;
-    padding: 20px;
 }
