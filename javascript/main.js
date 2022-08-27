@@ -30,7 +30,6 @@ function onClick(event) {
                 }
             );
             cleanForm();
-            /* redirectUrl(); */
         })
         .catch((err) => console.log(err));
 
@@ -39,9 +38,6 @@ function onClick(event) {
 function cleanForm() {
     let formulario = document.getElementById('formulario');
     formulario.reset();
-}
-function redirectUrl() {
-    window.location.href = "https://google.com";
 }
 
 let boton = document.getElementById("enviar");
