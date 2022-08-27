@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Expo Juy 2023</title>
   </head>
   <body>
@@ -78,21 +79,23 @@
     <section id="registrate">
       <div class="container">
         <div class="registrate-form">
-          <form action="" title="Formulario de Contacto">
+          <form action="" id="formulario" title="Formulario de Contacto">
             <div class="form-group">
-              <label for="comercio">Comercio</label>
-              <input class="form-control" type="text" />
+              <label for="name">Nombre</label>
+              <input id="name" class="form-control" type="text" />
             </div>
             <div class="form-group">
-              <label for="titular">Titular</label>
-              <input class="form-control" type="text" />
+              <label for="email">Email</label>
+              <input id="email" class="form-control" type="email" />
             </div>
             <div class="form-group">
-              <label for="telefono">Telefono</label>
-              <input class="form-control" type="tel" />
+              <label for="message">Mensaje</label>
+              <input id="message" class="form-control" type="tel" />
             </div>
            
-            <button class="btn btn-light">Enviar</button>
+            <button class="btn btn-light" id="enviar">Enviar</button>
+
+            <script src="./javascript/main.js"></script>
           </form>
         </div>
 
@@ -107,7 +110,6 @@
     </section>
     <footer>
       <div class="footer">
-        
         <b>Z</b>avoluk <b>A</b>nibal <b>D</b>ario  
         <a  href="https://wa.me/3884788407?text=Quisiera%20info%20sobre%20el%20evento">
           <img src="./assets/wslogo.png" width="20" height="20" alt="whatsapp">
