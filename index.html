@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Expo Juy 2023</title>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <header id="mainheader">
@@ -115,10 +116,19 @@
     </section>
     <section id="clima">
       <h2>Datos del clima en el lugar del evento</h2> 
+      <div class="clima-container">
+        <img src="" id="img-clima" width="100px" height="100px" alt="imagen-clima"/><br />
+        <label for="cielo"> Cielo : </label>
+        <label id="cielo"></label><br />
+        <label for="temperatura">Temperatura:</label>
+        <label id="temperatura"></label><br />
+        <label for="humedad">Humedad:</label>
+        <label id="humedad"></label><br />
+      </div>
+      <script src="./javascript/main.js"></script>
     </section>
     <footer>
-      <div class="footer">
-        
+      <div class="footer">    
         <b>Z</b>avoluk <b>A</b>nibal <b>D</b>ario  
         <a  href="https://wa.me/3884788407?text=Quisiera%20info%20sobre%20el%20evento">
           <img src="./assets/wslogo.png" width="20" height="20" alt="whatsapp">
